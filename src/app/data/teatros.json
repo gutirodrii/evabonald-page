@@ -1,0 +1,44 @@
+[
+  {
+    "Titulo": "El sorbo de Salomé",
+    "Lugar": "Teatro Pavón",
+    "PersonajeQueInterpreta": "Salomé",
+    "Imagen": "/cartel/salome.webp"
+  },
+  {
+    "Titulo": "El objetivo",
+    "Lugar": "Teatri Lara",
+    "PersonajeQueInterpreta": "Sharon",
+    "Imagen": "/cartel/el-objetivo.webp"
+  },
+  {
+    "Titulo": "Los niños de la Tv",
+    "Lugar": "Teatro Lara",
+    "PersonajeQueInterpreta": "Martina",
+    "Imagen": "/cartel/los-ninos-de-la-tv.webp"
+  },
+  {
+    "Titulo": "Los niños de la Tv",
+    "Lugar": "Teatro Lara",
+    "PersonajeQueInterpreta": "Martina",
+    "Imagen": "/cartel/los-ninos-de-la-tv.webp"
+  },
+  {
+    "Titulo": "Los niños de la Tv",
+    "Lugar": "Teatro Lara",
+    "PersonajeQueInterpreta": "Martina",
+    "Imagen": "/cartel/los-ninos-de-la-tv.webp"
+  },
+  {
+    "Titulo": "Los niños de la Tv",
+    "Lugar": "Teatro Lara",
+    "PersonajeQueInterpreta": "Martina",
+    "Imagen": "/cartel/los-ninos-de-la-tv.webp"
+  },
+  {
+    "Titulo": "Los niños de la Tv",
+    "Lugar": "Teatro Lara",
+    "PersonajeQueInterpreta": "Martina",
+    "Imagen": "/cartel/los-ninos-de-la-tv.webp"
+  }
+]
