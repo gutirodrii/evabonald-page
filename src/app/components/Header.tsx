@@ -10,6 +10,7 @@ import darkmodephoto from "/public/darkmode.svg";
 import "../globals.css";
 import PopoverHeader from "./Popover";
 import { TicketIcon, TvIcon, VideoCameraIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 const actrizItems = [
   {
@@ -54,14 +55,14 @@ const Header = () => {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <Image
               className="h-auto w-auto rounded-full"
               src={profilephoto}
               alt="eva bonald profile's photo"
             />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -74,21 +75,21 @@ const Header = () => {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="/book" className="text-sm font-semibold leading-6">
+          <Link href="/book" className="text-sm font-semibold leading-6">
             Book
-          </a>
+          </Link>
           <PopoverHeader
             props={{
               name: "Actriz",
               items: actrizItems,
             }}
           />
-          <a href="/modelo" className="text-sm font-semibold leading-6">
+          <Link href="/modelo" className="text-sm font-semibold leading-6">
             Modelo
-          </a>
-          <a href="/contacto" className="text-sm font-semibold leading-6">
+          </Link>
+          <Link href="/contacto" className="text-sm font-semibold leading-6">
             Contacto
-          </a>
+          </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <button
@@ -148,30 +149,30 @@ const Header = () => {
                     </>
                   )}
                 </Disclosure>
-                <a
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Blog
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Redes Sociales
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Sobre mí
-                </a>
-                <a
+                </Link>
+                <Link
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Contacto
-                </a>
+                </Link>
               </div>
             </div>
           </div>
