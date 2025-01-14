@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    margin: 0;
+}
+
+#gallery {
+    display: grid;
+    padding: 0;
+    gap: 0;
+    /* Diseño adaptativo con columnas */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+}
+
+#gallery #photo-container {
+    position: relative;
+    width: 100%;
+    padding-top: 75%;
+    /* Relación de aspecto 4:3 (100% sería cuadrado, 56.25% para 16:9) */
+    overflow: hidden;
+    background: #f0f0f0;
+    /* Opcional: Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    background: #000;
+}
+
+#gallery img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Asegura que la imagen cubra el contenedor sin deformarse */
+    transition: transform 0.2s ease;
+}
+
+#gallery img:active {
+    transform: scale(1.1);
+}
