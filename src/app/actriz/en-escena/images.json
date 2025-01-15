@@ -30,5 +30,53 @@
         "width": 1000,
         "height": 0,
         "quality": 100
+    },
+    {
+        "title": "XXXXXXXX",
+        "src": "/en-escena/image1.webp",
+        "alt": "XXXXXXXX",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    },
+    {
+        "title": "XXXXXXXX",
+        "src": "/en-escena/image2.webp",
+        "alt": "XXXXXXXX",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    },
+    {
+        "title": "XXXXXXXX",
+        "src": "/en-escena/image3.webp",
+        "alt": "XXXXXXXX",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    },
+    {
+        "title": "XXXXXXXX",
+        "src": "/en-escena/image5.webp",
+        "alt": "XXXXXXXX",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    },
+    {
+        "title": "XXXXXXXX",
+        "src": "/en-escena/image6.webp",
+        "alt": "XXXXXXXX",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    },
+    {
+        "title": "XXXXXXXX",
+        "src": "/en-escena/image7.webp",
+        "alt": "XXXXXXXX",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
     }
 ]
