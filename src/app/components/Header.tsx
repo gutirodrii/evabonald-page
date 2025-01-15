@@ -60,7 +60,9 @@ const Header = () => {
             <Image
               className="h-auto w-auto rounded-full"
               src={profilephoto}
+              height={80}
               alt="eva bonald profile's photo"
+              quality={100}
             />
           </Link>
         </div>
