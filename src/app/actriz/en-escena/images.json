@@ -1,0 +1,34 @@
+[
+    {
+        "title": "La Peste",
+        "src": "/en-escena/lapeste.webp",
+        "alt": "la peste",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    },
+    {
+        "title": "Plata y Oro",
+        "src": "/en-escena/plata-y-oro.webp",
+        "alt": "plata y oro",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    },
+    {
+        "title": "Plata y Oro",
+        "src": "/en-escena/plata-y-oro2.webp",
+        "alt": "plata y oro",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    },
+    {
+        "title": "Plata y Oro",
+        "src": "/en-escena/plata-y-oro3.webp",
+        "alt": "plata y oro",
+        "width": 1000,
+        "height": 0,
+        "quality": 100
+    }
+]

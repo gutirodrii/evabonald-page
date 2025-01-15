@@ -8,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      transform : {
+        'rotate-y-180' : 'rotateY(180deg)',
+      }
     },
   },
   plugins: [],
