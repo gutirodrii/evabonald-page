@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react"
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { TicketIcon, TvIcon, VideoCameraIcon } from "@heroicons/react/24/solid";
 
 type Props = {
     name: string,

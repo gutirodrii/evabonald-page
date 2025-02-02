@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Book",
+    "href": "/book"
+  },
+  {
+    "name": "Actriz",
+    "href": "/actriz",
+    "items": [
+      {
+        "name": "En escena",
+        "href": "/actriz/en-escena",
+        "icon": "VideoCameraIcon"
+      },
+      {
+        "name": "Teatro",
+        "href": "/actriz/teatro",
+        "icon": "TicketIcon"
+      },
+      {
+        "name": "Audiovisual",
+        "href": "/actriz/cine-television",
+        "icon": "TvIcon"
+      }
+    ]
+  },
+  {
+    "name": "Modelo",
+    "href": "/modelo"
+  },
+  {
+    "name": "Contacto",
+    "href": "/contacto"
+  }
+]
